@@ -20,15 +20,10 @@ def start_pannel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
         ],
         [
             InlineKeyboardButton(
-                text="💖 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 💖", url=config.SUPPORT_CHANNEL
+                text="💖 𝐒𝐮𝐩𝐩𝐨𝐫𝐭 💖", url="https//t.me/dangerous_fighter_clan_0"
             ),
             InlineKeyboardButton(
-                text="💖 𝐆𝐫𝐨𝐮𝐩 💖", url=config.SUPPORT_GROUP
-            )
-        ],
-        [           
-            InlineKeyboardButton(
-                text="📱 𝐘𝐨𝐮𝐭𝐮𝐛𝐞 📱", url=f"https://youtube.com/@BikashGadgetsTech"
+                text="💖 𝐆𝐫𝐨𝐮𝐩 💖", url="https//t.me/timepassgroup01"
             )
         ],
      ]
@@ -50,20 +45,15 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
         ],
         [
             InlineKeyboardButton(
-                text="🥀 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 💥", url=config.SUPPORT_CHANNEL
+                text="🥀 𝐒𝐮𝐩𝐩𝐨𝐫𝐭 💥", url="https//t.me/dangerous_fighter_clan_0"
             ),
             InlineKeyboardButton(
-                text="🥀 𝐆𝐫𝐨𝐮𝐩 💥", url=config.SUPPORT_GROUP
-            )
-        ],
-        [           
-            InlineKeyboardButton(
-                text="📱 𝐘𝐨𝐮𝐭𝐮𝐛𝐞 📱", url=f"https://youtube.com/@BikashGadgetsTech"
+                text="🥀 𝐆𝐫𝐨𝐮𝐩 💥", url="https//t.me/timepassgroup01"
             )
         ],
         [
             InlineKeyboardButton(
-                text="♕ 𝐎𝐰𝐧𝐞𝐫 ♕", user_id=OWNER
+                text="♕ 𝐎𝐰𝐧𝐞𝐫 ♕", url="https//t.me/taitangamerz"
             )
         ]
      ]
